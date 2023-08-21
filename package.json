@@ -1,0 +1,22 @@
+{
+	"name": "cypress-mochawesome-report",
+	"version": "1.0.0",
+	"description": "Generate beautiful and informative HTML reports for Cypress test runs using the Mochawesome reporter.",
+	"main": "index.js",
+
+	"scripts": {
+		"cy:run": "npx cypress run",
+		"cy:del-report": "cd cypress && rimraf reports"
+	  },
+
+	"keywords": ["Cypress", "Mochawesome", "reporting", "test automation", "mochawesome report"],
+	"author": "maqboolahmadzia.aqa@gmail.com",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^12.17.3",
+		"cypress-mochawesome-reporter": "^3.5.1",
+		"rimraf": "^5.0.1"
+	}
+}
+
+  
