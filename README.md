@@ -30,8 +30,8 @@ NodeJS: https://nodejs.org/en/download
     	screenshots: {
 		enabled: true,
     	},
-  	},
-	});
+  		},
+		});
 
 3. Run your Cypress tests using: npx cypress run
 
@@ -43,14 +43,10 @@ NodeJS: https://nodejs.org/en/download
 
 ## Use
 
-1. Checkout the project from git - git clone https://github.com/alagamai/cypress-mochawesome-report
+1. Checkout the project from git - git clone https://github.com/maqboolahmadzia/cypress-mochawesome-report
 2. Navigate to the project root directory - cypress-mochawesome-report
 3. Install dependencies with `npm install` 
 4. execute 
-   npm run cy:run - to run npm scripts in headless mode 
+   npm run cy:run - to run npm scripts in headless mode and it will generate mochawesome report
    
-   npm run cy:merge-json - to merge all jsons into single consolidated json file
-   
-   npm run cy:group-html - to convert merged json into consolidated html report   
-    
-
+   npm run cy:del-report - to delete the report
